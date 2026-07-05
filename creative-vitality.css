@@ -10,8 +10,9 @@
 .page-vitality-stage { min-height: 560px; }
 .page-vitality-stage img { max-width: min(112%, 640px); }
 .cv-story { width: 100%; max-width: none; padding: 84px max(16px, calc((100% - var(--max)) / 2)); background: rgba(227,223,216,0.52); }
-.cv-story-card { border-radius: var(--radius-xl); background: rgba(255,255,255,0.55); border: 1px solid var(--line); box-shadow: var(--shadow-soft); overflow: hidden; display: grid; place-items: end center; min-height: 430px; }
-.cv-story-card img { max-height: 430px; width: auto; filter: drop-shadow(0 22px 32px rgba(5,10,48,0.15)); }
+.cv-story-card { border-radius: var(--radius-xl); background: rgba(255,255,255,0.55); border: 1px solid var(--line); box-shadow: var(--shadow-soft); overflow: hidden; display: grid; place-items: end center; min-height: 430px; position: relative; }
+.cv-story-card img { display: none; }
+.cv-story-card::before { content: ''; display: block; width: 100%; min-height: 430px; background: url('assets/janie_with_cup.png') center bottom / contain no-repeat; filter: drop-shadow(0 22px 32px rgba(5,10,48,0.15)); }
 .cv-story-copy { max-width: 720px; }
 .cv-story-copy h2 { margin-bottom: 20px; }
 .cv-story-copy p { color: rgba(10,26,74,0.76); }
@@ -32,4 +33,4 @@
 .cv-disclaimer { margin-top: 54px; padding: 24px 28px; border-radius: var(--radius-lg); border: 1px solid rgba(31,153,151,0.22); background: rgba(255,255,255,0.62); color: rgba(10,26,74,0.76); }
 .cv-disclaimer p { margin: 0; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
-@media (max-width: 940px) { .cv-hero { padding-top: 24px; } .page-vitality-stage { min-height: 420px; } .cv-article-grid, .cv-benefit-grid { grid-template-columns: 1fr; } .cv-benefit-grid div { border-right: 0; border-bottom: 1px solid rgba(31,153,151,0.16); } .cv-benefit-grid div:last-child { border-bottom: 0; } }
+@media (max-width: 940px) { .cv-hero { padding-top: 24px; } .page-vitality-stage { min-height: 420px; } .cv-story-card::before { min-height: 360px; } .cv-article-grid, .cv-benefit-grid { grid-template-columns: 1fr; } .cv-benefit-grid div { border-right: 0; border-bottom: 1px solid rgba(31,153,151,0.16); } .cv-benefit-grid div:last-child { border-bottom: 0; } }
