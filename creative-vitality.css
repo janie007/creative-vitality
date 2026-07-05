@@ -1,0 +1,14 @@
+.vitality-page main { padding-top: 64px; }
+.cv-hero { padding: 54px 0 96px; }
+.cv-copy .eyebrow, .cv-panel .eyebrow { color: var(--teal); }
+.cv-copy h1 { font-size: clamp(3.8rem, 8vw, 7.4rem); }
+.cv-intro, .cv-topics, .cv-disclaimer { width: min(100%, var(--max)); margin: 0 auto; }
+.cv-panel { padding: clamp(30px, 5vw, 64px); border-radius: var(--radius-xl); border: 1px solid rgba(31,153,151,0.18); background: linear-gradient(135deg, rgba(255,255,255,0.78), rgba(31,153,151,0.08)); box-shadow: var(--shadow-soft); }
+.cv-panel h2 { margin-bottom: 24px; }
+.cv-panel p { max-width: 920px; color: rgba(10,26,74,0.76); }
+.cv-topics { padding: 96px 0 42px; }
+.cv-disclaimer { margin-top: 54px; padding: 24px 28px; border-radius: var(--radius-lg); border: 1px solid rgba(31,153,151,0.22); background: rgba(255,255,255,0.62); color: rgba(10,26,74,0.76); }
+.cv-disclaimer p { margin: 0; }
+.page-vitality-stage { min-height: 560px; }
+.page-vitality-stage img { max-width: min(112%, 640px); }
+@media (max-width: 940px) { .cv-hero { padding-top: 24px; } .page-vitality-stage { min-height: 420px; } }
