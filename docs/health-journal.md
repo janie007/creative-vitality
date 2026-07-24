@@ -70,6 +70,14 @@ Copy this block, complete it in Janie's natural voice, and add the finished entr
 
 ## Published Entries
 
+### Day 1 — What Carrying the Load Left Behind
+
+- Hair shedding began during a period of extreme daily stress.
+- Reflects on how Gen X women and men often carry caregiving, work, grief, and family responsibilities alone.
+- Shares for the first time that Janie wears a hair topper.
+- Baseline hair photos will remain private unless and until Janie chooses to share them.
+- Invites readers to follow and learn alongside her physician-guided journey without suggesting they copy her protocol.
+
 ### Day 1 — July 23, 2026
 
 - First GHK-Cu injection completed successfully.
